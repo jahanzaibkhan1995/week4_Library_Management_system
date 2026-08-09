@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Library_Management_System;
+using System;
 
 namespace Libray_Management_system
 { 
@@ -18,9 +19,11 @@ namespace Libray_Management_system
             load_data,
             
         }
+        static LibraryManager library_manager;
         static bool IsContinue = false;
         static void Main()
         {
+            library_manager = new LibraryManager();
             while(!IsContinue)
             {
                 Show_Menu_Item();
@@ -33,13 +36,13 @@ namespace Libray_Management_system
             Console.WriteLine("========== LIBRARY MANAGEMENT SYSTEM ==========");
             Console.WriteLine("1. Add Book");
             Console.WriteLine("2. Show Books");
-            Console.WriteLine("2. Add Member");
-            Console.WriteLine("3. Show Members");
-            Console.WriteLine("4. Borrow Books");
-            Console.WriteLine("5. Return Book");
-            Console.WriteLine("6. Show Borrow Books");
-            Console.WriteLine("7. Save Data");
-            Console.WriteLine("8. Load Data");
+            Console.WriteLine("3. Add Member");
+            Console.WriteLine("4. Show Members");
+            Console.WriteLine("5. Borrow Books");
+            Console.WriteLine("6. Return Book");
+            Console.WriteLine("7. Show Borrow Books");
+            Console.WriteLine("8. Save Data");
+            Console.WriteLine("9. Load Data");
             Console.WriteLine("0. Exit");
         }
         static void Selection_of_Menuitem()
@@ -56,15 +59,19 @@ namespace Libray_Management_system
                     break;
                 case (int)Meun_Item.add_book:
                     Console.WriteLine("ADD Book");
+                    library_manager.Add_Book();
                     break;
                 case (int)Meun_Item.show_books:
                     Console.WriteLine("Show Books");
+                    library_manager.Show_Books();
                     break;
                 case (int)Meun_Item.add_member:
                     Console.WriteLine("Add Member");
+                    library_manager.Add_Member();
                     break;
                 case (int)Meun_Item.show_members:
                     Console.WriteLine("Show Members");
+                    library_manager.Show_Member();
                     break;
                 case (int)Meun_Item.borrow_book:
                     Console.WriteLine("Borrow Book");

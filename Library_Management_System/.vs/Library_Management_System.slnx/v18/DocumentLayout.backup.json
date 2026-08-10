@@ -1,25 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\",
+  "WorkspaceRootPath": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4_library_management_system\\library_management_system\\library_management_system\\librarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4\\newfeaturesavedata\\week4_library_management_system\\library_management_system\\library_management_system\\librarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\librarymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4_library_management_system\\library_management_system\\library_management_system\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4_library_management_system\\library_management_system\\library_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4\\newfeaturesavedata\\week4_library_management_system\\library_management_system\\library_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4_library_management_system\\library_management_system\\library_management_system\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4\\newfeaturesavedata\\week4_library_management_system\\library_management_system\\library_management_system\\data\\members.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\data\\members.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4\\newfeaturesavedata\\week4_library_management_system\\library_management_system\\library_management_system\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4\\newfeaturesavedata\\week4_library_management_system\\library_management_system\\library_management_system\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\member.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4_library_management_system\\library_management_system\\library_management_system\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|e:\\software development learning\\week4\\newfeaturesavedata\\week4_library_management_system\\library_management_system\\library_management_system\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C766B74-C4B8-EF52-2B2B-5CB707C0EDE9}|Library_Management_System\\Library_Management_System.csproj|solutionrelative:library_management_system\\filemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,40 +34,54 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "members.json",
+              "DocumentMoniker": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Data\\members.json",
+              "RelativeDocumentMoniker": "Library_Management_System\\Data\\members.json",
+              "ToolTip": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Data\\members.json",
+              "RelativeToolTip": "Library_Management_System\\Data\\members.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-10T17:06:52.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "FileManager.cs",
-              "DocumentMoniker": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\FileManager.cs",
+              "DocumentMoniker": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\FileManager.cs",
               "RelativeDocumentMoniker": "Library_Management_System\\FileManager.cs",
-              "ToolTip": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\FileManager.cs",
+              "ToolTip": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\FileManager.cs",
               "RelativeToolTip": "Library_Management_System\\FileManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-04T21:49:49.98Z"
+              "WhenOpened": "2026-08-04T21:49:49.98Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LibraryManager.cs",
-              "DocumentMoniker": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\LibraryManager.cs",
+              "DocumentMoniker": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\LibraryManager.cs",
               "RelativeDocumentMoniker": "Library_Management_System\\LibraryManager.cs",
-              "ToolTip": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\LibraryManager.cs",
+              "ToolTip": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\LibraryManager.cs",
               "RelativeToolTip": "Library_Management_System\\LibraryManager.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAIA0wD4AAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAAwJYAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T21:49:35.187Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Member.cs",
-              "DocumentMoniker": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Member.cs",
+              "DocumentMoniker": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Member.cs",
               "RelativeDocumentMoniker": "Library_Management_System\\Member.cs",
-              "ToolTip": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Member.cs",
+              "ToolTip": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Member.cs",
               "RelativeToolTip": "Library_Management_System\\Member.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -72,26 +90,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Book.cs",
-              "DocumentMoniker": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Book.cs",
+              "DocumentMoniker": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Book.cs",
               "RelativeDocumentMoniker": "Library_Management_System\\Book.cs",
-              "ToolTip": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Book.cs",
+              "ToolTip": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Book.cs",
               "RelativeToolTip": "Library_Management_System\\Book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T21:37:42.337Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Program.cs",
+              "DocumentMoniker": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Program.cs",
               "RelativeDocumentMoniker": "Library_Management_System\\Program.cs",
-              "ToolTip": "E:\\Software Development Learning\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Program.cs",
+              "ToolTip": "E:\\Software Development Learning\\week4\\newfeaturesavedata\\week4_Library_Management_system\\Library_Management_System\\Library_Management_System\\Program.cs",
               "RelativeToolTip": "Library_Management_System\\Program.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAnwEAAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAE8AAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-08-04T21:05:01.051Z",
               "EditorCaption": ""

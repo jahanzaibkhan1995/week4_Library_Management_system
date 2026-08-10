@@ -24,7 +24,8 @@ namespace Libray_Management_system
         static void Main()
         {
             library_manager = new LibraryManager();
-            while(!IsContinue)
+            library_manager.Load_Data();
+            while (!IsContinue)
             {
                 Show_Menu_Item();
                 Selection_of_Menuitem();
@@ -55,6 +56,7 @@ namespace Libray_Management_system
             {
                 case (int)Meun_Item.exit:
                     Console.WriteLine("Exit");
+                    library_manager.Save_Data();
                     IsContinue = true;
                     break;
                 case (int)Meun_Item.add_book:
@@ -75,18 +77,23 @@ namespace Libray_Management_system
                     break;
                 case (int)Meun_Item.borrow_book:
                     Console.WriteLine("Borrow Book");
+                    library_manager.Borrow_Books();
                     break;
                 case (int)Meun_Item.return_book:
                     Console.WriteLine("Return Book");
+                    library_manager.Return_Book();
                     break;
                 case (int)Meun_Item.show_borrowed_books:
                     Console.WriteLine("Show Borrowed Books");
+                    library_manager.Show_Borrowed_Books();
                     break;
                 case (int)Meun_Item.save_Data:
                     Console.WriteLine("Save Data");
+                    library_manager.Save_Data();
                     break;
                 case (int)Meun_Item.load_data:
                     Console.WriteLine("Laod Data");
+                    library_manager.Load_Data();
                     break;
             }
         }

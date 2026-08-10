@@ -1,0 +1,23 @@
+[
+  {
+    "ID": 1,
+    "Title": "Clean Code",
+    "Author": "Robert Martin",
+    "ISBN": null,
+    "IsAvailable": false
+  },
+  {
+    "ID": 2,
+    "Title": "C# in Depth",
+    "Author": "Jon Skeet",
+    "ISBN": null,
+    "IsAvailable": false
+  },
+  {
+    "ID": 3,
+    "Title": "Electronics Design",
+    "Author": "Kelly Brown",
+    "ISBN": "1122334",
+    "IsAvailable": false
+  }
+]

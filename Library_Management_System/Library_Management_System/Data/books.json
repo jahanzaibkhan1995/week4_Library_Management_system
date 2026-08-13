@@ -2,22 +2,85 @@
   {
     "ID": 1,
     "Title": "Clean Code",
-    "Author": "Robert Martin",
-    "ISBN": null,
+    "Author": "Robert C. Martin",
+    "ISBN": "9780132350884",
     "IsAvailable": false
   },
   {
     "ID": 2,
     "Title": "C# in Depth",
     "Author": "Jon Skeet",
-    "ISBN": null,
+    "ISBN": "9781617294532",
     "IsAvailable": false
   },
   {
     "ID": 3,
-    "Title": "Electronics Design",
-    "Author": "Kelly Brown",
-    "ISBN": "1122334",
+    "Title": "The Pragmatic Programmer",
+    "Author": "David Thomas",
+    "ISBN": "9780135957059",
+    "IsAvailable": true
+  },
+  {
+    "ID": 4,
+    "Title": "Design Patterns",
+    "Author": "Erich Gamma",
+    "ISBN": "9780201633610",
+    "IsAvailable": true
+  },
+  {
+    "ID": 5,
+    "Title": "Effective C#",
+    "Author": "Bill Wagner",
+    "ISBN": "9780134579554",
     "IsAvailable": false
+  },
+  {
+    "ID": 6,
+    "Title": "Head First Design Patterns",
+    "Author": "Eric Freeman",
+    "ISBN": "9780596007126",
+    "IsAvailable": true
+  },
+  {
+    "ID": 7,
+    "Title": "Introduction to Algorithms",
+    "Author": "Thomas H. Cormen",
+    "ISBN": "9780262046305",
+    "IsAvailable": false
+  },
+  {
+    "ID": 8,
+    "Title": "Computer Networks",
+    "Author": "Andrew S. Tanenbaum",
+    "ISBN": "9780132126953",
+    "IsAvailable": true
+  },
+  {
+    "ID": 9,
+    "Title": "Digital Design",
+    "Author": "M. Morris Mano",
+    "ISBN": "9780134549897",
+    "IsAvailable": true
+  },
+  {
+    "ID": 10,
+    "Title": "The Art of Electronics",
+    "Author": "Paul Horowitz",
+    "ISBN": "9780521809269",
+    "IsAvailable": false
+  },
+  {
+    "ID": 9,
+    "Title": "Alibaba Chalis Chor",
+    "Author": "Ali Abdullah",
+    "ISBN": "0012324",
+    "IsAvailable": true
+  },
+  {
+    "ID": 11,
+    "Title": "Phr na mile",
+    "Author": "waqar uddin",
+    "ISBN": "093874",
+    "IsAvailable": true
   }
 ]

@@ -39,47 +39,33 @@ namespace Library_Management_System
             members1.Name = "Ali";
             members1.ID = 1;
             members.Add(members1);
-            Implementation_Borrow_Books(members1.ID, 1);
+            Borrow_Books(members1.ID, 1);
            
 
             Member members2 = new Member();
             members2.Name = "Hira";
             members2.ID = 2;
             members.Add(members2);
-            Implementation_Borrow_Books(members2.ID, 2);
+            Borrow_Books(members2.ID, 2);
            
         }
-        public void Add_Book()
+        public void Add_Book(int id, string title, string author, string isbn)
         {
             Book book= new Book();
-            Console.Write($"Enter ID:");
-            int id = Convert.ToInt32(Console.ReadLine());
             book.ID = id;
-            Console.Write($"Enter Title:");
-            string title = Console.ReadLine();
             book.Title = title;
-            Console.Write($"Enter Author:");
-            string author = Console.ReadLine();
             book.Author = author;
-            Console.Write($"Enter ISBN:");
-            string isbn = Convert.ToString(Console.ReadLine());
             book.ISBN = isbn;
             book.IsAvailable = true;
             books.Add(book);
         }
-        public void Add_Member()
+        public void Add_Member(int id, string name, int book_id)
         {
             Member member = new Member();
-            Console.Write($"Enter ID:");
-            int id = Convert.ToInt32(Console.ReadLine());
             member.ID = id;
-            Console.Write($"Enter Member Name:");
-            string name = Convert.ToString(Console.ReadLine());
             member.Name = name;
-            Console.Write($"Enter Borrowed Book");
-            int book_id = Convert.ToInt16(Console.ReadLine());
             members.Add(member);
-            Implementation_Borrow_Books(id, book_id);
+            Borrow_Books(id, book_id);
         }
         public void Show_Books()
         {
@@ -110,7 +96,7 @@ namespace Library_Management_System
             }
 
         }
-        public void Implementation_Borrow_Books(int memberid, int bookid)
+        public void Borrow_Books(int memberid, int bookid)
         {
             Member member = members.Find(m => m.ID == memberid);
             Book book = books.Find(b => b.ID == bookid);
@@ -138,19 +124,8 @@ namespace Library_Management_System
 
             Console.WriteLine("Book borrowed successfully.");
         }
-        public void Borrow_Books()
-        {
-            int bookid = 0;
-            int memberid = 0;
-            Console.Write("Please Enter Book Name you need to Borrow:");
-            string _book = Console.ReadLine();
-            Console.Write("Please Enter Name Memeber Whose Borrowes the book:");
-            string _member = Console.ReadLine();
-            foreach (Book book in books) { if (book.Title.ToLower().Contains(_book.ToLower())) { bookid = book.ID; } }
-            foreach (Member member in members) { if (member.Name.ToLower().Contains(_member.ToLower())) { memberid = member.ID; } }
-            Implementation_Borrow_Books(memberid, bookid);
-        }
-        public void Implementation_Return_Book(int memberid, int bookid)
+
+        public void Return_Book(int memberid, int bookid)
         {
             Member member = members.Find(m => m.ID == memberid);
             Book book = books.Find(b => b.ID == bookid);
@@ -181,18 +156,6 @@ namespace Library_Management_System
             Console.WriteLine("Book returned successfully.");
 
 
-        }
-        public void Return_Book()
-        {
-            int bookid = 0;
-            int memberid = 0;
-            Console.Write("Please Enter Name you need to return:");
-            string _book = Console.ReadLine();
-            Console.Write("Please Enter Name Memeber Whose Borrowed this book");
-            string _member = Console.ReadLine();
-            foreach (Book book in books) { if (book.Title.ToLower().Contains(_book.ToLower())) { bookid = book.ID; } }
-            foreach (Member member in members) { if (member.Name.ToLower().Contains(_member.ToLower()) ) { memberid = member.ID; } }
-            Implementation_Return_Book(memberid,bookid);
         }
         public void Show_Borrowed_Books()
         { 

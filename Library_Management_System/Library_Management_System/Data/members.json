@@ -1,0 +1,100 @@
+[
+  {
+    "ID": 1,
+    "Name": "Ali",
+    "BorrowedBooks": [
+      {
+        "ID": 1,
+        "Title": "Clean Code",
+        "Author": "Robert C. Martin",
+        "ISBN": "9780132350884",
+        "IsAvailable": false
+      }
+    ]
+  },
+  {
+    "ID": 2,
+    "Name": "Hira",
+    "BorrowedBooks": [
+      {
+        "ID": 3,
+        "Title": "Electronics Design",
+        "Author": "Kelly Brown",
+        "ISBN": "1122334",
+        "IsAvailable": false
+      }
+    ]
+  },
+  {
+    "ID": 3,
+    "Name": "Jahanzaib Khan",
+    "BorrowedBooks": [
+      {
+        "ID": 2,
+        "Title": "C# in Depth",
+        "Author": "Jon Skeet",
+        "ISBN": "9781617294532",
+        "IsAvailable": false
+      }
+    ]
+  },
+  {
+    "ID": 4,
+    "Name": "Ahmed",
+    "BorrowedBooks": []
+  },
+  {
+    "ID": 5,
+    "Name": "Sara",
+    "BorrowedBooks": [
+      {
+        "ID": 4,
+        "Title": "Design Patterns",
+        "Author": "Erich Gamma",
+        "ISBN": "9780201633610",
+        "IsAvailable": false
+      }
+    ]
+  },
+  {
+    "ID": 6,
+    "Name": "Usman",
+    "BorrowedBooks": []
+  },
+  {
+    "ID": 7,
+    "Name": "Fatima",
+    "BorrowedBooks": [
+      {
+        "ID": 6,
+        "Title": "Head First Design Patterns",
+        "Author": "Eric Freeman",
+        "ISBN": "9780596007126",
+        "IsAvailable": false
+      }
+    ]
+  },
+  {
+    "ID": 8,
+    "Name": "Hamza",
+    "BorrowedBooks": []
+  },
+  {
+    "ID": 9,
+    "Name": "Ayesha",
+    "BorrowedBooks": [
+      {
+        "ID": 9,
+        "Title": "Digital Design",
+        "Author": "M. Morris Mano",
+        "ISBN": "9780134549897",
+        "IsAvailable": false
+      }
+    ]
+  },
+  {
+    "ID": 10,
+    "Name": "Bilal",
+    "BorrowedBooks": []
+  }
+]

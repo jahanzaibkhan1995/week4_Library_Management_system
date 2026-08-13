@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Net;
 using System.Text;
 
 namespace Library_Management_System
@@ -8,10 +9,12 @@ namespace Library_Management_System
     {
         public List<Book> books = new List<Book>();
         public List<Member> members = new List<Member>();
+        public FileManager filemanager; 
         public LibraryManager() 
         {
-            add_initial_data_for_book();
-            add_initial_data_for_member();
+            filemanager = new FileManager();
+           // add_initial_data_for_book();
+            //add_initial_data_for_member();
         }
 
         public void add_initial_data_for_book()
@@ -46,37 +49,23 @@ namespace Library_Management_System
             Borrow_Books(members2.ID, 2);
            
         }
-        public void Add_Book()
+        public void Add_Book(int id, string title, string author, string isbn)
         {
             Book book= new Book();
-            Console.Write($"Enter ID:");
-            int id = Convert.ToInt32(Console.ReadLine());
             book.ID = id;
-            Console.Write($"Enter Title:");
-            string title = Console.ReadLine();
             book.Title = title;
-            Console.Write($"Enter Author:");
-            string author = Console.ReadLine();
             book.Author = author;
-            Console.Write($"Enter ISBN:");
-            string isbn = Convert.ToString(Console.ReadLine());
             book.ISBN = isbn;
             book.IsAvailable = true;
             books.Add(book);
         }
-        public void Add_Member()
+        public void Add_Member(int id, string name, int book_id)
         {
             Member member = new Member();
-            Console.Write($"Enter ID:");
-            int id = Convert.ToInt32(Console.ReadLine());
             member.ID = id;
-            Console.Write($"Enter Member Name:");
-            string name = Convert.ToString(Console.ReadLine());
             member.Name = name;
-            Console.Write($"Enter Borrowed Book");
-            int book_id = Convert.ToInt16(Console.ReadLine());
-            Borrow_Books(id, book_id);
             members.Add(member);
+            Borrow_Books(id, book_id);
         }
         public void Show_Books()
         {
@@ -135,9 +124,76 @@ namespace Library_Management_System
 
             Console.WriteLine("Book borrowed successfully.");
         }
-        private void Return_Books()
-        {
 
+        public void Return_Book(int memberid, int bookid)
+        {
+            Member member = members.Find(m => m.ID == memberid);
+            Book book = books.Find(b => b.ID == bookid);
+
+            if (member == null)
+            {
+                Console.WriteLine("Member not found.");
+                return;
+            }
+
+            if (book == null)
+            {
+                Console.WriteLine("Book not found.");
+                return;
+            }
+            Book borrowedBook = member.BorrowedBooks.Find(b => b.ID == bookid);
+
+            if (borrowedBook == null)
+            {
+                Console.WriteLine("This member has not borrowed this book.");
+                return;
+            }
+
+            member.BorrowedBooks.Remove(borrowedBook);
+
+            book.IsAvailable = true;
+
+            Console.WriteLine("Book returned successfully.");
+
+
+        }
+        public void Show_Borrowed_Books()
+        { 
+            foreach (Member member in members)
+            {
+                Console.WriteLine("==========================");
+                Console.WriteLine($"Member ID: {member.ID}");
+                Console.WriteLine($"Member Name: {member.Name}");
+
+                Console.WriteLine("Borrowed Books:");
+
+                if (member.BorrowedBooks.Count == 0)
+                {
+                    Console.WriteLine("No books borrowed.");
+                }
+                else
+                {
+                    foreach (Book book in member.BorrowedBooks)
+                    {
+                        Console.WriteLine($"Book ID: {book.ID}");
+                        Console.WriteLine($"Title: {book.Title}");
+                        Console.WriteLine($"Author: {book.Author}");
+                        Console.WriteLine("--------------------------");
+                    }
+                }
+
+                Console.WriteLine("==========================");
+            }
+        }
+        public void Save_Data()
+        {
+            filemanager.SaveBooks(books);
+            filemanager.SaveMembers(members);
+        }
+        public void Load_Data()
+        {
+            books = filemanager.LoadBooks();
+            members = filemanager.LoadMembers();
         }
 
     }
